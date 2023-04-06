@@ -3,6 +3,6 @@
     "name": "YouTube Playback Rate Controller",
     "version": "0.1",
     "action": {
-        "deafault-popup": "popup.html"
+        "default_popup": "popup.html"
     }
 }
