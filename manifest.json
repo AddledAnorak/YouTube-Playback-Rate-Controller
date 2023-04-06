@@ -3,6 +3,8 @@
     "name": "YouTube Playback Rate Controller",
     "version": "0.1",
 
+    "permissions": ["tabs"],
+
     "background": {
         "service_worker": "background.js"
     },
