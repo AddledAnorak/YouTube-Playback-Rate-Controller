@@ -2,7 +2,19 @@
     "manifest_version": 3,
     "name": "YouTube Playback Rate Controller",
     "version": "0.1",
+
+    "background": {
+        "service_worker": "background.js"
+    },
+
     "action": {
         "default_popup": "popup.html"
-    }
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["*:://*.youtube.com/watch?*"],
+            "js": ["content.js"]
+        }
+    ]
 }
